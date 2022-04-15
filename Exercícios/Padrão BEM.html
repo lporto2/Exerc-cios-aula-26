@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Padrão BEM</title>
+
+
+    <style>
+
+        .container {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .container__form {
+            background-color:burlywood;
+            padding: 10px;
+
+        }
+
+        .container__input {
+            background-color:bisque;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .container__submit {
+            background-color:crimson;
+            border-radius: 5px;
+            color: white;
+
+        }
+
+        .container__header {
+            font: 30px "Crimson";
+            color: white;
+        }
+
+        .container__header--color {
+            color:cornsilk;
+
+        }
+
+        .container__submit--hover:hover {
+            background-color:chartreuse;
+        }
+            
+        .container__submit--active:active{
+            background-color:blueviolet; 
+
+        }
+    </style>
+</head>
+<body>
+    <Div class="container">
+        <h1 class="container__header container__header--color">Meu Formulário</h1>
+
+    <form action="" class="container__form">
+
+        <input type="text" placeholder="Nome" class="container__input">
+        <input type="password" placeholder="Password" class="container__input">
+        <input type="submit" value="Entrar" class="container__submit--hover container__submit--active">
+
+
+
+    </form>
+
+
+    </Div>
+</body>
+</html>
